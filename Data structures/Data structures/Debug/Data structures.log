@@ -1,0 +1,30 @@
+﻿  main.cpp
+d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(63): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(59): note: Bei der Kompilierung der Klassen-template der "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::heapify(int)"-Memberfunktion
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(53): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::heapify(int)".
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(34): note: Bei der Kompilierung der Klassen-template der "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::insert(int)"-Memberfunktion
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(97): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::insert(int)".
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(91): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>".
+          with
+          [
+              _Ty=int
+          ]
+d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(65): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Data structures.vcxproj -> D:\Programmieren\Introduction to Algorithms\Data structures\Debug\Data structures.exe
+  Data structures.vcxproj -> D:\Programmieren\Introduction to Algorithms\Data structures\Debug\Data structures.pdb (Partial PDB)

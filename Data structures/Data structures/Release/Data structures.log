@@ -1,0 +1,35 @@
+﻿  main.cpp
+d:\programmieren\introduction to algorithms\data structures\data structures\Heap.h(76): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  d:\programmieren\introduction to algorithms\data structures\data structures\Heap.h(72): note: Bei der Kompilierung der Klassen-template der "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::heapify(int)"-Memberfunktion
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\Heap.h(56): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::heapify(int)".
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\Heap.h(35): note: Bei der Kompilierung der Klassen-template der "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::insert(int)"-Memberfunktion
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\Heap.h(110): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::insert(int)".
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\Heap.h(104): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>".
+          with
+          [
+              _Ty=int
+          ]
+d:\programmieren\introduction to algorithms\data structures\data structures\Heap.h(78): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Code wird generiert.
+  52 of 229 functions (22.7%) were compiled, the rest were copied from previous compilation.
+    38 functions were new in current compilation
+    32 functions had inline decision re-evaluated but remain unchanged
+  Codegenerierung ist abgeschlossen.
+  Data structures.vcxproj -> D:\Programmieren\Introduction to Algorithms\Data structures\Release\Data structures.exe
+  Data structures.vcxproj -> D:\Programmieren\Introduction to Algorithms\Data structures\Release\Data structures.pdb (Full PDB)

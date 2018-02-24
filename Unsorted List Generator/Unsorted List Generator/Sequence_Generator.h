@@ -25,14 +25,18 @@ namespace N2B_Algo
 	class Sequence_Generator
 	{
 	public:
-		T numbers;
+		T& numbers() { return m_numbers; }
 	protected:
+		T m_numbers;
+
 		Sequence_Generator()
 		{}
 		Sequence_Generator(unsigned int count)
 			:
-			numbers(count)
+			m_numbers(count)
 		{}
+		
+		std::random_device					m_rd;
 	};
 
 
@@ -52,15 +56,14 @@ namespace N2B_Algo
 			typename T::value_type  max)
 			:
 			Sequence_Generator(count),
-			dist(min, max)
+			m_dist(min, max)
 		{
 			for (unsigned int i = 0; i < count; i++)
 			{
-				numbers[i] = dist(rd);
+				m_numbers[i] = m_dist(m_rd);
 			}
 		}
-		std::random_device					rd;
-		R									dist;
+		R									m_dist;
 	};
 
 	/*
@@ -125,12 +128,40 @@ namespace N2B_Algo
 			typename T::value_type  increment_by = 1
 			)
 			:
-			Sequence_Generator(count)
+			Sequence_Generator(count),
+			m_rand_engine(m_rd())
 		{
 			min -= increment_by;
-			std::generate(numbers.begin(), numbers.end(),
+			std::generate(m_numbers.begin(), m_numbers.end(),
 				[min, increment_by]() mutable { return min += increment_by; });
-			std::random_shuffle(numbers.begin(), numbers.end());
+			std::shuffle(m_numbers.begin(), m_numbers.end(), m_rand_engine);
 		}
+		
+	private:
+		std::mt19937 m_rand_engine;
 	};
+
+#ifdef TESTING
+	static void rand_seq_gen_test()
+	{
+		Random_Int_Sequence_Generator<std::vector<int>> random(10, -5, 5);
+
+
+		std::cout << "Random_Real_Sequence_Generator:" << std::endl;
+		for (auto i : random.numbers())
+		{
+			std::cout << i << ", ";
+		}
+		std::cout << std::endl << std::endl;
+
+		std::cout << "Unsorted_Sequence_Generator:" << std::endl;
+		Unsorted_Sequence_Generator<std::vector<double>> unsorted(10, -5, 0.2);
+		for (auto i : unsorted.numbers())
+		{
+			std::cout << i << ", ";
+		}
+		std::cout << std::endl;
+	}
+#endif // TESTING
+
 }
