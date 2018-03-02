@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 
-namespace N2B_Algo
+namespace N2B_Data
 {
 	template <class T>
 	class Max_Heap
@@ -95,6 +95,7 @@ namespace N2B_Algo
 #ifdef TESTING
 	static void max_heap_test()
 	{
+		using namespace N2B_Algo;
 		Unsorted_Sequence_Generator<std::vector<int>> unsorted_seq(10, 0);
 
 		for (auto i : unsorted_seq.numbers())

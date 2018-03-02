@@ -113,9 +113,11 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Counting_Sort.h" />
     <ClInclude Include="Heap_Sort.h" />
     <ClInclude Include="Insertion_Sort.h" />
     <ClInclude Include="Merge_Sort.h" />
+    <ClInclude Include="Quick_Sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

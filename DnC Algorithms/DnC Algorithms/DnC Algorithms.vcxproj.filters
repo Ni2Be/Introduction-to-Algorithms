@@ -18,6 +18,9 @@
     <ClInclude Include="Maximum_Subarray.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Sorting\Sorting\Merge_Sort.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

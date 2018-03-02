@@ -18,6 +18,9 @@
     <ClInclude Include="Heap.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="AVL Tree.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

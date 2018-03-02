@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Sorting\Sorting\Merge_Sort.h" />
     <ClInclude Include="Maximum_Subarray.h" />
   </ItemGroup>
   <ItemGroup>

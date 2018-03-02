@@ -63,7 +63,7 @@ namespace N2B_Algo
 				m_numbers[i] = m_dist(m_rd);
 			}
 		}
-		R									m_dist;
+		R	m_dist;
 	};
 
 	/*

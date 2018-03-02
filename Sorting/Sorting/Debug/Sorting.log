@@ -1,1 +1,49 @@
-﻿LINK : fatal error LNK1168: "D:\Programmieren\Introduction to Algorithms\Sorting\Debug\Sorting.exe" kann nicht zum Schreiben geöffnet werden.
+﻿  main.cpp
+d:\programmieren\introduction to algorithms\sorting\sorting\counting_sort.h(31): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  d:\programmieren\introduction to algorithms\sorting\sorting\counting_sort.h(14): note: Bei der Kompilierung der Klassen-template der "void N2B_Sort::Counting_Sort<std::vector<int,std::allocator<_Ty>>>::sort(T &,int)"-Memberfunktion
+          with
+          [
+              _Ty=int,
+              T=std::vector<int,std::allocator<int>>
+          ]
+  d:\programmieren\introduction to algorithms\sorting\sorting\counting_sort.h(79): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void N2B_Sort::Counting_Sort<std::vector<int,std::allocator<_Ty>>>::sort(T &,int)".
+          with
+          [
+              _Ty=int,
+              T=std::vector<int,std::allocator<int>>
+          ]
+  d:\programmieren\introduction to algorithms\sorting\sorting\counting_sort.h(75): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "N2B_Sort::Counting_Sort<std::vector<int,std::allocator<_Ty>>>".
+          with
+          [
+              _Ty=int
+          ]
+d:\programmieren\introduction to algorithms\sorting\sorting\counting_sort.h(38): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(76): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(72): note: Bei der Kompilierung der Klassen-template der "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::heapify(int)"-Memberfunktion
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(56): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::heapify(int)".
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(35): note: Bei der Kompilierung der Klassen-template der "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::insert(int)"-Memberfunktion
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(110): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>::insert(int)".
+          with
+          [
+              _Ty=int
+          ]
+  d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(104): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "N2B_Algo::Max_Heap<std::vector<int,std::allocator<_Ty>>>".
+          with
+          [
+              _Ty=int
+          ]
+d:\programmieren\introduction to algorithms\data structures\data structures\heap.h(78): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Sorting.vcxproj -> D:\Programmieren\Introduction to Algorithms\Sorting\Debug\Sorting.exe
+  Sorting.vcxproj -> D:\Programmieren\Introduction to Algorithms\Sorting\Debug\Sorting.pdb (Partial PDB)

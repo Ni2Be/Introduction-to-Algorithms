@@ -8,6 +8,8 @@
 #include "Insertion_Sort.h"
 #include "Merge_Sort.h"
 #include "Heap_Sort.h"
+#include "Quick_Sort.h"
+#include "Counting_Sort.h"
 
 int main()
 {
@@ -17,10 +19,16 @@ int main()
 	merge_sort_test();
 	std::cout << "--------------------------------------------------"
 		<< std::endl << std::endl;
-	insertion_sort_test();	
+	insertion_sort_test();
 	std::cout << "--------------------------------------------------"
 		<< std::endl << std::endl;
 	heap_sort_test();
+	std::cout << "--------------------------------------------------"
+		<< std::endl << std::endl;
+	quick_sort_test();
+	std::cout << "--------------------------------------------------"
+		<< std::endl << std::endl;
+	counting_sort_test();
 
 	char ch;
 	std::cin >> ch;
